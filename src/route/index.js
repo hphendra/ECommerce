@@ -8,16 +8,6 @@ const Route = () => {
   return (
     <Stack.Navigator>
       <Stack.Screen
-        name="Pengirim"
-        component={Pengirim}
-        options={{headerShown: false}}
-      />
-      <Stack.Screen
-        name="Penerima"
-        component={Penerima}
-        options={{headerShown: false}}
-      />
-      <Stack.Screen
         name="Home"
         component={Home}
         options={{headerShown: false}}
@@ -25,6 +15,16 @@ const Route = () => {
       <Stack.Screen
         name="Order"
         component={Order}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="Pengirim"
+        component={Pengirim}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="Penerima"
+        component={Penerima}
         options={{headerShown: false}}
       />
     </Stack.Navigator>
